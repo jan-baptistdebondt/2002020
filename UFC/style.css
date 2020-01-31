@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    line-height: 1.15;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(231, 231, 231);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: absolute;
+    padding: 4vh 3.5vw;
+}
+
+.title {
+    margin-left: 1.8em;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1em;
+    font-weight: 300;
+    padding-top: 2%;
+}
+
+#sliderText{
+    position: absolute;
+    font-size: 1.2em;
+    left: 5%;
+    top: 93%;
+}
+
+.info-column{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+#method {
+    top: 16%;
+    left: 3%;
+    height: 72%;
+}
+
+#method p{
+    color: rgba(255, 255, 255, 1);
+}
+
+#method_cat {
+    left: 32.66666%;
+    top: 5%;
+    height: 86%;
+}
+
+.info-column p{
+    flex: 1;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.0);
+    transition: ease-in-out 0.2s;
+}
+
+.info-column p:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 1);
+}
+
+#legend{
+    font-weight: 700;
+    position: absolute;
+    top: 25%;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    left: 88%;
+}
+
+#legend div{
+
+    text-indent: 2em;
+    flex: 1;
+}
+
+.rnd1 {
+    border-top: 5px solid #00FFFF;
+}
+
+.rnd2 {
+    border-top: 5px solid #30FF4F;
+}
+.rnd3 {
+    border-top: 5px solid #FAA200;
+}
+.rnd4 {
+    border-top: 5px solid #FFFB00;
+}
+.rnd5 {
+    border-top: 5px solid #D10202;
+}
+
+
+
+canvas {
+    width: 100vw; 
+}
